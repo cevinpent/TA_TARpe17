@@ -37,6 +37,22 @@ namespace Kangelased
 			this.V6ime = V6ime;
 
 		}
+		public string Annanimi(string Nimi)
+		{
+			return (Nimi);
+
+		}
+		public string Annav6ime(string V6ime)
+		{
+			return (V6ime);
+
+		}
+		public string Annasupernimi(string superNimi)
+		{
+			return (superNimi);
+
+		}
+
 
 		public int Päästa(int Ohustatuid)
         {
