@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kangelased
 {
-     abstract class Kangelane
+     abstract class Kangelane : Lsuperv6ime
     {
         private string nimi;
 
