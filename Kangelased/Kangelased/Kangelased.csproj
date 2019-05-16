@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HeaKangelane.cs" />
     <Compile Include="Kangelane.cs" />
     <Compile Include="lsuperv6ime.cs" />
+    <Compile Include="PahaKangelane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
