@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kangelased
 {
-    class Kangelane
+     abstract class Kangelane
     {
         private string nimi;
 
@@ -20,6 +20,7 @@ namespace Kangelased
 
         protected string Nimi { get => nimi; set => nimi = value; }
         protected string Asukoht { get => asukoht; set => asukoht = value; }
+		// punkt 1
 		public string SuperNimi { get => superNimi; set => superNimi = value; }
 		public string V6ime { get => v6ime; set => v6ime = value; }
 
@@ -28,7 +29,7 @@ namespace Kangelased
             this.Nimi = Nimi;
             this.Asukoht = Asukoht;
         }
-
+		//punkt2
 		public Kangelane(string Nimi, string SuperNimi, string V6ime)
 		{
 
@@ -52,6 +53,9 @@ namespace Kangelased
 			return (superNimi);
 
 		}
+		public abstract string V6iduk6ne();
+
+		
 
 
 		public int Päästa(int Ohustatuid)
